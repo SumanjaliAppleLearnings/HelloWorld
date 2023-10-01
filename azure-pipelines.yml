@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: MyPc_Agent
+#  vmImage: ubuntu-latest
 
 steps:
 - task: ArchiveFiles@2
